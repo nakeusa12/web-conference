@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const AboutSection = styled.section`
 	width: 100%;
 	background: #151853;
-	height: 650px;
+	height: 900px;
 
 	@media screen and (max-width: 958px) {
 		height: auto;
