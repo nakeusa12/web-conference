@@ -7,38 +7,37 @@ import speakerFour from '../../Img/speakerFour.jpg';
 import speakerFive from '../../Img/speakerFive.jpg';
 
 // ================
-import SwiperCore, { Pagination } from 'swiper';
+import SwiperCore, { Autoplay, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper.scss';
-import 'swiper/components/pagination/pagination.scss';
-SwiperCore.use([Pagination]);
+SwiperCore.use([Autoplay, A11y]);
 
 const SpeakerCard = () => {
 	const persons = [
 		{
 			image: speakerOne,
 			name: 'Alex Barnes',
-			job: 'Founder',
+			job: 'Founder of Gojek',
 		},
 		{
 			image: speakerTwo,
 			name: 'Mishusa Zheying',
-			job: 'Co-Founder',
+			job: 'Co-Founder of Harizon.io',
 		},
 		{
 			image: speakerThree,
 			name: 'John Wixsell',
-			job: 'Content Creator',
+			job: 'Founder of Taktik.Space',
 		},
 		{
 			image: speakerFour,
 			name: 'Ken Brightness',
-			job: 'UI Designer',
+			job: 'CEO of Butstart',
 		},
 		{
 			image: speakerFive,
 			name: 'Urasi Yuan',
-			job: 'Mobile Developer',
+			job: 'Founder of Canva',
 		},
 	];
 
@@ -47,7 +46,7 @@ const SpeakerCard = () => {
 			<Swiper
 				spaceBetween={30}
 				slidesPerView={3}
-				pagination={{ clickable: true }}>
+				autoplay={{ delay: 2000, disableOnInteraction: false }}>
 				{persons.map((person) => (
 					<SwiperSlide>
 						<SpeakCard key={person.name}>
