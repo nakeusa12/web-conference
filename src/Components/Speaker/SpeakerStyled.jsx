@@ -45,7 +45,7 @@ export const SpeakerContainer = styled.div`
 	justify-content: space-between;
 `;
 
-export const SpeakerCard = styled.div`
+export const SpeakCard = styled.div`
 	width: 100%;
 	max-width: 370px;
 	height: 400px;
@@ -57,6 +57,7 @@ export const SpeakerCard = styled.div`
 	align-items: flex-start;
 	overflow: hidden;
 	cursor: pointer;
+	padding-bottom: 20px;
 
 	img {
 		width: 100%;
@@ -74,7 +75,7 @@ export const NameCard = styled.div`
 	background: linear-gradient(
 		to bottom,
 		rgba(0, 0, 0, 0.02) 0%,
-		rgba(0, 0, 0, 0.5) 35%,
+		rgba(0, 0, 0, 0.5) 40%,
 		rgba(0, 0, 0, 0.9) 100%
 	);
 

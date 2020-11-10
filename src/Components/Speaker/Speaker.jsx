@@ -1,12 +1,6 @@
 import React from 'react';
-import SpeakerOne from '../../Img/speakerOne.jpg';
-import {
-	SpeakerSection,
-	SpekerTitle,
-	SpeakerContainer,
-	SpeakerCard,
-	NameCard,
-} from './SpeakerStyled';
+import { SpeakerSection, SpekerTitle, SpeakerContainer } from './SpeakerStyled';
+import SpeakerCard from './SpeakerCard';
 
 const Speaker = () => {
 	return (
@@ -16,27 +10,7 @@ const Speaker = () => {
 				<h2>Who's Speaking</h2>
 			</SpekerTitle>
 			<SpeakerContainer>
-				<SpeakerCard>
-					<img src={SpeakerOne} alt='' />
-					<NameCard>
-						<p>Albert Barnes</p>
-						<span>Founder</span>
-					</NameCard>
-				</SpeakerCard>
-				<SpeakerCard>
-					<img src={SpeakerOne} alt='' />
-					<NameCard>
-						<p>Albert Barnes</p>
-						<span>Co-Founder</span>
-					</NameCard>
-				</SpeakerCard>
-				<SpeakerCard>
-					<img src={SpeakerOne} alt='' />
-					<NameCard>
-						<p>Albert Barnes</p>
-						<span>CEO</span>
-					</NameCard>
-				</SpeakerCard>
+				<SpeakerCard />
 			</SpeakerContainer>
 		</SpeakerSection>
 	);

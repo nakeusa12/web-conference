@@ -83,7 +83,7 @@ export const MenuBtn = styled.button`
 
 	&:hover {
 		background: #fff;
-		color: #000;
+		color: #ec398c;
 	}
 
 	@media screen and (max-width: 768px) {
