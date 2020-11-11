@@ -53,14 +53,14 @@ export const Desc = styled.div`
 		border-bottom: 2px solid #4b4d7b;
 	}
 	h2 {
-		font-size: 40px;
+		font-size: 30px;
 		line-height: 1.2;
 		margin: 26px 0;
 	}
 	p {
-		font-size: 15px;
+		font-size: 13px;
 		line-height: 1.8;
-		margin-bottom: 35px;
+		margin-bottom: 40px;
 	}
 
 	@media screen and (max-width: 958px) {
@@ -75,7 +75,7 @@ export const BtnAbout = styled.a`
 	outline: none;
 	border-radius: 7px;
 	font-weight: 400;
-	padding: 12px 30px;
+	padding: 10px 30px;
 	cursor: pointer;
 
 	transition: background 300ms ease-in-out;

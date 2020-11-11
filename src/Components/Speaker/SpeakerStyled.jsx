@@ -29,6 +29,7 @@ export const SpekerTitle = styled.div`
 	position: relative;
 	p {
 		font-size: 23px;
+		color: #ec398c;
 	}
 	h2 {
 		font-size: 40px;

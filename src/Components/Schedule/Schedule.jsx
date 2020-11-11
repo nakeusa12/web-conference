@@ -15,7 +15,7 @@ const Schedule = () => {
 		<ScheduleSec>
 			<ScheduleTitle>
 				<p>Our Plans</p>
-				<h2>Schedule and Agenda</h2>
+				<h2>Schedule & Agenda</h2>
 			</ScheduleTitle>
 			<ScheduleChoice>
 				<ScheduleNavItem

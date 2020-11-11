@@ -38,6 +38,7 @@ export const PricingTitle = styled.div`
 	position: relative;
 	p {
 		font-size: 23px;
+		color: #151853;
 	}
 	h2 {
 		font-size: 40px;

@@ -12,6 +12,7 @@ export const ScheduleTitle = styled.div`
 	position: relative;
 	p {
 		font-size: 23px;
+		color: #151853;
 	}
 	h2 {
 		font-size: 40px;
@@ -39,15 +40,15 @@ export const ScheduleChoice = styled.div`
 `;
 
 export const ScheduleNav = styled.div`
-	width: 100%;
 	max-width: 170px;
 	text-align: center;
-	padding: 25px 20px;
+	padding: 25px 30px;
 	margin: 70px 15px 20px 0;
 	font-weight: 600;
 	cursor: pointer;
 	border-radius: 10px;
 	transition: background 500ms ease-in-out;
+
 	span {
 		font-size: 14px;
 		margin: 8px 0 0 0;
@@ -55,6 +56,7 @@ export const ScheduleNav = styled.div`
 	}
 	@media screen and (max-width: 970px) {
 		margin: 10px 0;
+		width: 100%;
 		max-width: 608px;
 	}
 	@media screen and (min-width: 971px) and (max-width: 1168px) {
@@ -80,6 +82,7 @@ export const ScheduleItem = styled.div`
 	@media screen and (max-width: 970px) {
 		flex-direction: column;
 		align-items: center;
+		margin: 20px auto;
 		max-width: 608px;
 	}
 `;
@@ -173,7 +176,8 @@ export const BtnItem = styled.a`
 	outline: none;
 	border-radius: 7px;
 	font-weight: 400;
-	padding: 12px 30px;
+	padding: 10px 30px;
+	font-size: 12px;
 	cursor: pointer;
 
 	transition: background 300ms ease-in-out;

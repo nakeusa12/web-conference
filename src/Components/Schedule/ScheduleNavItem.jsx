@@ -6,7 +6,7 @@ const ScheduleNavItem = ({ itemName, itemDate, day, setDay }) => {
 		<ScheduleNav
 			onClick={() => setDay(itemName)}
 			style={{
-				background: day === itemName ? 'rgba(255,255,255,.223)' : '#151853',
+				background: day === itemName ? 'rgba(255,255,255,.123)' : '#151853',
 				color: day === itemName ? '#151853' : '#fff',
 				border: day === itemName ? '2px solid #151853' : 'none',
 				boxShadow:

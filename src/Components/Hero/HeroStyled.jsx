@@ -25,11 +25,14 @@ export const HeroSection = styled.section`
 
 export const HeroContainer = styled.div`
 	width: 100%;
+	height: 100vh;
 	padding-left: 50px;
 	margin: 0 auto;
 	position: relative;
 	display: flex;
 	justify-content: flex-start;
+	align-items: center;
+
 	@media screen and (max-width: 520px) {
 		width: 90%;
 		padding-left: 0px;
@@ -48,15 +51,15 @@ export const HeroContent = styled.div`
 `;
 
 export const H2 = styled.h2`
-	font-size: 80px;
+	font-size: 70px;
 	line-height: 1.1;
 	z-index: 3;
 
 	@media screen and (max-width: 610px) {
-		font-size: 70px;
+		font-size: 60px;
 	}
 	@media screen and (max-width: 520px) {
-		font-size: 60px;
+		font-size: 50px;
 	}
 `;
 
@@ -67,7 +70,7 @@ export const P2 = styled.p`
 `;
 
 export const P1 = styled.p`
-	font-size: 30px;
+	font-size: 25px;
 	display: inline-block;
 	color: #ec398c;
 	font-weight: 600;
@@ -77,6 +80,7 @@ export const P1 = styled.p`
 export const BtnHero = styled.a`
 	background: #ec398c;
 	color: #f3f3f3;
+	font-size: 15px;
 	border: none;
 	outline: none;
 	border-radius: 7px;

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {
 	PricingCard,
 	HeadCard,
@@ -52,7 +52,7 @@ const PricingCards = () => {
 	return (
 		<>
 			{datas.map((data, index) => (
-				<PricingCard>
+				<PricingCard key={index}>
 					<HeadCard>
 						<h3>{data.nameCard}</h3>
 						<p>{data.summary}</p>
