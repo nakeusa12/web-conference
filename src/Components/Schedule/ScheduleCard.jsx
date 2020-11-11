@@ -7,6 +7,9 @@ import {
 	BtnItem,
 } from './ScheduleStyled';
 
+import { BsClock } from 'react-icons/bs';
+import { FaPlaceOfWorship } from 'react-icons/fa';
+
 const ScheduleCard = ({ scheduleTitle, scheduleDesc }) => (
 	<ScheduleItem>
 		<WrapperCard>
@@ -17,8 +20,12 @@ const ScheduleCard = ({ scheduleTitle, scheduleDesc }) => (
 				</div>
 			</InfoCard>
 			<AboutCard>
-				<p>12-14 Jan 2019</p>
-				<p>Mountain Resort, Phoenix, USA</p>
+				<p>
+					<BsClock /> <span>9AM - 10AM</span>
+				</p>
+				<p>
+					<FaPlaceOfWorship /> <span>Mountain Resort, Phoenix, USA</span>
+				</p>
 			</AboutCard>
 		</WrapperCard>
 		<BtnItem>View More</BtnItem>

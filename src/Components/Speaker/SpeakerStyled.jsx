@@ -5,7 +5,7 @@ export const SpeakerSection = styled.section`
   width: 100%;
   padding: 70px 0;
   height: 650px;
-  background: linear-gradient(180deg,#151853 20%, #B842A8 100%);
+  background: linear-gradient(180deg,#151853 20%, #EC398C 100%);
   position: relative;
   z-index: 0;
 
@@ -84,7 +84,7 @@ export const NameCard = styled.div`
 		font-size: 20px;
 	}
 	span {
-		color: #b842a8;
+		color: #ec398c;
 		font-weight: 500;
 	}
 `;

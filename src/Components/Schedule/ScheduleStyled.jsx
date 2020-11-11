@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const ScheduleSec = styled.section`
 	width: 100%;
-	background: #b842a8;
+	background: #ec398c;
 	padding: 100px 0;
 `;
 
@@ -42,36 +42,20 @@ export const ScheduleNav = styled.div`
 	width: 100%;
 	max-width: 170px;
 	text-align: center;
-	padding: 14px 20px;
-	margin: 70px 0 20px 0;
+	padding: 25px 20px;
+	margin: 70px 15px 20px 0;
 	font-weight: 600;
 	cursor: pointer;
+	border-radius: 10px;
 	transition: background 500ms ease-in-out;
 	span {
 		font-size: 14px;
 		margin: 8px 0 0 0;
 		display: block;
 	}
-	&:first-of-type {
-		border-radius: 14px 0 0 14px;
-	}
-	&:nth-child(2) {
-		border-left: 1px solid #4c4f8d;
-		border-right: 1px solid #4c4f8d;
-	}
-	&:last-of-type {
-		border-radius: 0 14px 14px 0;
-	}
 	@media screen and (max-width: 970px) {
 		margin: 10px 0;
 		max-width: 608px;
-		&:first-of-type,
-		&:nth-child(2),
-		&:last-of-type {
-			border-radius: 0px;
-			border-left: none;
-			border-right: none;
-		}
 	}
 	@media screen and (min-width: 971px) and (max-width: 1168px) {
 		max-width: 33%;
@@ -90,7 +74,7 @@ export const ScheduleItem = styled.div`
 	transition: border 500ms ease-in-out;
 	cursor: pointer;
 	&:hover {
-		border: 1px solid #df42b1;
+		box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.3);
 	}
 
 	@media screen and (max-width: 970px) {
@@ -163,9 +147,8 @@ export const AboutCard = styled.div`
 	padding-left: 14px;
 
 	p {
-		i {
-			color: #df42b1;
-			margin-right: 10px;
+		span {
+			margin-left: 10px;
 		}
 	}
 
