@@ -21,10 +21,11 @@ const ScheduleCard = ({ scheduleTitle, scheduleDesc }) => (
 			</InfoCard>
 			<AboutCard>
 				<p>
-					<BsClock /> <span>9AM - 10AM</span>
+					<BsClock style={{ color: '151853' }} /> <span>9AM - 10AM</span>
 				</p>
 				<p>
-					<FaPlaceOfWorship /> <span>Mountain Resort, Phoenix, USA</span>
+					<FaPlaceOfWorship style={{ color: '151853' }} />{' '}
+					<span>Mountain Resort, Phoenix, USA</span>
 				</p>
 			</AboutCard>
 		</WrapperCard>
