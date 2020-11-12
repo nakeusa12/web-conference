@@ -12,7 +12,7 @@ const Schedule = () => {
 	const [day, setDay] = useState('Monday');
 
 	return (
-		<ScheduleSec>
+		<ScheduleSec id='schedule'>
 			<ScheduleTitle>
 				<p>Our Plans</p>
 				<h2>Schedule & Agenda</h2>

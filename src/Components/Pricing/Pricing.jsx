@@ -4,7 +4,7 @@ import PricingCards from './PricingCards';
 
 const Pricing = () => {
 	return (
-		<PricingSec>
+		<PricingSec id='pricing'>
 			<PricingTitle>
 				<p>Chooice A Ticket</p>
 				<h2>Ticket Pricing</h2>

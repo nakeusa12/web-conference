@@ -1,12 +1,13 @@
 import styled from 'styled-components';
 import { FaTimes } from 'react-icons/fa';
+import { Link as LinkS } from 'react-scroll';
 
 export const NavBar = styled.nav`
 	width: 100%;
-	position: absolute;
+	position: fixed;
 	top: 0;
 	padding: 5px 0;
-	background: transparent;
+	background: ${({ scrollNav }) => (scrollNav ? '#151d53' : 'transparent')};
 	z-index: 99;
 	@media screen and (max-width: 1024px) {
 		padding: 31px 0;
@@ -91,7 +92,7 @@ export const MenuBtn = styled.button`
 	}
 `;
 
-export const NavLinks = styled.a`
+export const NavLinks = styled(LinkS)`
 	color: #fff;
 	display: flex;
 	align-items: center;

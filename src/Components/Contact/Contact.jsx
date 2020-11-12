@@ -11,7 +11,7 @@ import { HiOutlineMail, HiPhone } from 'react-icons/hi';
 
 const Contact = () => {
 	return (
-		<ContactSec>
+		<ContactSec id='contact'>
 			<ContactTitle>
 				<p>Need Something?</p>
 				<h2>Contact Us</h2>

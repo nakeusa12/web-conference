@@ -11,7 +11,7 @@ import {
 
 const Hero = () => {
 	return (
-		<HeroSection>
+		<HeroSection id='hero'>
 			<HeroContainer>
 				<HeroContent>
 					<P1>2020</P1>

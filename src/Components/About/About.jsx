@@ -34,7 +34,7 @@ const About = () => {
 	];
 
 	return (
-		<AboutSection>
+		<AboutSection id='about'>
 			<AboutContainer>
 				<AboutInfo>
 					<Desc>

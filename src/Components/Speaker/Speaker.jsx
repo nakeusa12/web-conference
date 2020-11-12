@@ -4,7 +4,7 @@ import SpeakerCard from './SpeakerCard';
 
 const Speaker = () => {
 	return (
-		<SpeakerSection>
+		<SpeakerSection id='speaker'>
 			<SpekerTitle>
 				<p>Our Speakings</p>
 				<h2>Who's Speaking</h2>
