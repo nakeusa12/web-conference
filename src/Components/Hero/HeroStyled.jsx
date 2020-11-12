@@ -25,6 +25,7 @@ export const HeroSection = styled.section`
 
 export const HeroContainer = styled.div`
 	width: 100%;
+	max-width: 1300px;
 	height: 100vh;
 	padding-left: 50px;
 	margin: 0 auto;

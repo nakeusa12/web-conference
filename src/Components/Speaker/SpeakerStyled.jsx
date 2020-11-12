@@ -39,6 +39,9 @@ export const SpekerTitle = styled.div`
 `;
 
 export const SpeakerContainer = styled.div`
+	width: 100%;
+	max-width: 1300px;
+	margin: 0 auto;
 	position: relative;
 	padding: 20px 60px;
 	display: flex;

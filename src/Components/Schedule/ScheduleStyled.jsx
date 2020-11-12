@@ -40,7 +40,7 @@ export const ScheduleChoice = styled.div`
 `;
 
 export const ScheduleNav = styled.div`
-	max-width: 170px;
+	max-width: 180px;
 	text-align: center;
 	padding: 25px 30px;
 	margin: 70px 15px 20px 0;

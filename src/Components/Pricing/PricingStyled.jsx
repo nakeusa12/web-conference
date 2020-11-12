@@ -5,7 +5,7 @@ export const PricingSec = styled.section`
 	width: 100%;
 	background: #ec398c;
 	padding: 100px 0;
-  height: 800px;
+  height: 850px;
   background: linear-gradient(180deg, #EC398C 50%, #151853 100%);
   position: relative;
   z-index: 0;
@@ -13,7 +13,7 @@ export const PricingSec = styled.section`
   ::before{
     content: '';
     width: 100%;
-    height: 800px;
+    height: 850px;
     background: url('${pricingBg}') no-repeat center/cover;
     position: absolute;
     opacity: .09;

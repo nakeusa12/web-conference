@@ -16,6 +16,7 @@ export const AboutSection = styled.section`
 
 export const AboutContainer = styled.div`
 	width: 100%;
+	max-width: 1300px;
 	margin: 0 auto;
 
 	position: relative;
@@ -53,12 +54,12 @@ export const Desc = styled.div`
 		border-bottom: 2px solid #4b4d7b;
 	}
 	h2 {
-		font-size: 30px;
+		font-size: 35px;
 		line-height: 1.2;
 		margin: 26px 0;
 	}
 	p {
-		font-size: 13px;
+		font-size: 17px;
 		line-height: 1.8;
 		margin-bottom: 40px;
 	}
