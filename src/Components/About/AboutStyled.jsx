@@ -16,9 +16,9 @@ export const AboutSection = styled.section`
 
 export const AboutContainer = styled.div`
 	width: 100%;
-	max-width: 1300px;
-	margin: 0 auto;
+	max-width: 1200px;
 
+	margin: 0 auto;
 	position: relative;
 	@media screen and (max-width: 958px) {
 		width: 90%;
@@ -47,7 +47,6 @@ export const AboutInfo = styled.div`
 export const Desc = styled.div`
 	width: 100%;
 	color: #fff;
-	margin-left: 50px;
 
 	span {
 		color: #df42b1;
@@ -125,7 +124,6 @@ export const AboutDate = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 20px 50px 50px 50px;
 	background: #151853;
 
 	@media screen and (max-width: 1000px) {

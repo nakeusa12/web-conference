@@ -20,6 +20,7 @@ export const Container = styled.div`
 	align-items: center;
 	justify-content: space-between;
 	width: 100%;
+	max-width: 1200px;
 `;
 
 export const NavLogo = styled.div`
@@ -29,7 +30,6 @@ export const NavLogo = styled.div`
 	font-size: 1.5rem;
 	display: flex;
 	align-items: center;
-	padding-left: 50px;
 	font-weight: bold;
 	text-decoration: none;
 	@media screen and (max-width: 510px) {
@@ -58,7 +58,6 @@ export const WrapperMenu = styled.ul`
 	justify-content: flex-end;
 	list-style: none;
 	text-align: center;
-	margin-right: 50px;
 	width: 100%;
 
 	@media screen and (max-width: 1024px) {
