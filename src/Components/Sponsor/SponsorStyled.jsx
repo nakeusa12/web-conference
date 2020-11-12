@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const SponsorSec = styled.section`
 	width: 100%;
-	background: #151853;
+	background: #151d53;
 	padding: 50px 0;
 `;
 
@@ -59,6 +59,13 @@ export const SponsorArea = styled.div`
 			@media screen and (max-width: 1200px) {
 				margin: 10px;
 			}
+		}
+	}
+
+	@media screen and (max-width: 676px) {
+		.logoarea {
+			margin-right: 30px;
+			margin-bottom: 20px;
 		}
 	}
 `;

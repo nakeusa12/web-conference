@@ -31,6 +31,8 @@ export const ContactContainer = styled.div`
 
 	@media screen and (max-width: 958px) {
 		width: 90%;
+		flex-direction: column;
+		align-items: center;
 	}
 `;
 
@@ -52,6 +54,10 @@ export const ContactInfo = styled.div`
 				margin-left: 50px;
 			}
 		}
+	}
+
+	@media screen and (max-width: 958px) {
+		width: 100%;
 	}
 `;
 
@@ -91,6 +97,14 @@ export const ContactForm = styled.form`
 		:hover {
 			background: #fff;
 			color: #ec398c;
+		}
+	}
+
+	@media screen and (max-width: 958px) {
+		width: 100%;
+
+		button {
+			width: auto;
 		}
 	}
 `;

@@ -21,6 +21,10 @@ export const Container = styled.div`
 	justify-content: space-between;
 	width: 100%;
 	max-width: 1200px;
+
+	@media screen and (max-width: 1000px) {
+		width: 90%;
+	}
 `;
 
 export const NavLogo = styled.div`
@@ -32,9 +36,6 @@ export const NavLogo = styled.div`
 	align-items: center;
 	font-weight: bold;
 	text-decoration: none;
-	@media screen and (max-width: 510px) {
-		padding-left: 30px;
-	}
 `;
 
 export const MobileIcon = styled.div`

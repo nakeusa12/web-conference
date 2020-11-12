@@ -33,7 +33,7 @@ export const HeroContainer = styled.div`
 	justify-content: flex-start;
 	align-items: center;
 
-	@media screen and (max-width: 520px) {
+	@media screen and (max-width: 1000px) {
 		width: 90%;
 		padding-left: 0px;
 	}
