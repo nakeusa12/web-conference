@@ -59,7 +59,7 @@ const Footer = () => {
 				</FooterDesc>
 				<FooterEnd>
 					<p>
-						I'm Slicing from Colorlib and Dribble -{' '}
+						Colorlib and Dribble -{' '}
 						<a href='https://sfullnakeusa.netlify.app/' target='blank'>
 							Saiful Nakeusa
 						</a>
