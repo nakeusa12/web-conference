@@ -18,11 +18,56 @@ const Sidebar = ({ isOpen, toggle }) => {
 			</Icon>
 			<SidebarWrapper>
 				<SidebarMenu>
-					<SidebarLink>Home</SidebarLink>
-					<SidebarLink>Blog</SidebarLink>
-					<SidebarLink>Speaker</SidebarLink>
-					<SidebarLink>Pricing</SidebarLink>
-					<SidebarLink>Contact</SidebarLink>
+					<SidebarLink
+						to='hero'
+						smooth={true}
+						duration={500}
+						spy={true}
+						exact='true'
+						offset={-80}
+						onClick={toggle}>
+						Home
+					</SidebarLink>
+					<SidebarLink
+						to='about'
+						smooth={true}
+						duration={500}
+						spy={true}
+						exact='true'
+						offset={-80}
+						onClick={toggle}>
+						About
+					</SidebarLink>
+					<SidebarLink
+						to='speaker'
+						smooth={true}
+						duration={500}
+						spy={true}
+						exact='true'
+						offset={-80}
+						onClick={toggle}>
+						Speaker
+					</SidebarLink>
+					<SidebarLink
+						to='pricing'
+						smooth={true}
+						duration={500}
+						spy={true}
+						exact='true'
+						offset={-80}
+						onClick={toggle}>
+						Pricing
+					</SidebarLink>
+					<SidebarLink
+						to='contact'
+						smooth={true}
+						duration={500}
+						spy={true}
+						exact='true'
+						offset={-80}
+						onClick={toggle}>
+						Contact
+					</SidebarLink>
 				</SidebarMenu>
 				<SideBtnWrap>
 					<SidebarRoute>Buy Ticket</SidebarRoute>

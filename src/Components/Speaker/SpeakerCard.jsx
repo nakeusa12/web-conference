@@ -48,8 +48,8 @@ const SpeakerCard = () => {
 				slidesPerView={3}
 				autoplay={{ delay: 2000, disableOnInteraction: false }}>
 				{persons.map((person) => (
-					<SwiperSlide>
-						<SpeakCard key={person.name}>
+					<SwiperSlide key={person.name}>
+						<SpeakCard>
 							<img src={person.image} alt='' />
 							<NameCard>
 								<p>{person.name}</p>

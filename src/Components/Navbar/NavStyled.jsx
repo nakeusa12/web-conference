@@ -47,7 +47,7 @@ export const MobileIcon = styled.div`
 		position: absolute;
 		top: 0;
 		right: 0;
-		transform: translate(-100%, 0);
+		transform: translate(-20%, 0);
 		font-size: 1.8rem;
 		cursor: pointer;
 		color: #fff;
@@ -71,15 +71,16 @@ export const MenuItem = styled.li`
 	height: 80px;
 `;
 
-export const MenuBtn = styled.button`
+export const MenuBtn = styled.a`
 	background: #ec398c;
 	color: #fff;
 	border: none;
 	outline: none;
-	border-radius: 20px;
+	border-radius: 10px;
 	font-weight: 500;
 	padding: 12px 25px;
 	cursor: pointer;
+	text-decoration: none;
 	transition: background 300ms ease-in-out;
 
 	&:hover {
@@ -158,7 +159,7 @@ export const SidebarMenu = styled.ul`
 	}
 `;
 
-export const SidebarLink = styled.a`
+export const SidebarLink = styled(LinkS)`
 	display: flex;
 	align-items: center;
 	justify-content: center;

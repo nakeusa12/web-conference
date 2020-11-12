@@ -58,6 +58,9 @@ export const ContactInfo = styled.div`
 
 	@media screen and (max-width: 958px) {
 		width: 100%;
+		.content {
+			padding: 25px 20px 25px 0px;
+		}
 	}
 `;
 
@@ -102,6 +105,7 @@ export const ContactForm = styled.form`
 
 	@media screen and (max-width: 958px) {
 		width: 100%;
+		margin-right: 0px;
 
 		button {
 			width: auto;

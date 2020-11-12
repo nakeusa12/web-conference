@@ -51,8 +51,8 @@ const PricingCards = () => {
 
 	return (
 		<>
-			{datas.map((data, index) => (
-				<PricingCard key={index}>
+			{datas.map((data) => (
+				<PricingCard key={data.nameCard}>
 					<HeadCard>
 						<h3>{data.nameCard}</h3>
 						<p>{data.summary}</p>

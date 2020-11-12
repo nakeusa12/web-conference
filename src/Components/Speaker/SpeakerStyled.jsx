@@ -47,6 +47,7 @@ export const SpeakerContainer = styled.div`
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	overflow-x: hidden;
 `;
 
 export const SpeakCard = styled.div`
